@@ -9,7 +9,7 @@
     </style>
     <style name="MyButtonStyle" parent="@style/Widget.AppCompat.Button.Colored">
         <!-- Customize your theme here. -->
-        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_width">@dimen/activity_button_width</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
