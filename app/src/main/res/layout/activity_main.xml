@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps"
+        android:text="@string/portfolio_title"
         android:id="@+id/mainTitle"
         android:layout_marginTop="@dimen/activity_title_margin"
         android:layout_alignParentTop="true"
@@ -27,7 +27,7 @@
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Popular Movies"
+        android:text="@string/portfolio_item_1"
         android:id="@+id/button1"
         android:layout_below="@+id/mainTitle"
         android:layout_marginTop="@dimen/activity_action_margin"
@@ -35,35 +35,35 @@
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Stock Hawk"
+        android:text="@string/portfolio_item_2"
         android:id="@+id/button2"
         android:layout_below="@+id/button1"
         android:onClick="sendMessage" />
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Build It Bigger"
+        android:text="@string/portfolio_item_3"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:onClick="sendMessage" />
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Make Your App Material"
+        android:text="@string/portfolio_item_4"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:onClick="sendMessage" />
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Go Ubiquitous"
+        android:text="@string/portfolio_item_5"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:onClick="sendMessage" />
 
     <Button
         style="@style/MyButtonStyle"
-        android:text="Capstone"
+        android:text="@string/portfolio_item_6"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:onClick="sendMessage" />

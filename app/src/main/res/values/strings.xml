@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
+    <string name="portfolio_title">My Nanodegree Apps</string>
+    <string name="portfolio_item_1">Popular Movies</string>
+    <string name="portfolio_item_2">Stock Hawk</string>
+    <string name="portfolio_item_3">Build It Bigger</string>
+    <string name="portfolio_item_4">Make Your App Material</string>
+    <string name="portfolio_item_5">Go Ubiquitous</string>
+    <string name="portfolio_item_6">Capstone</string>
+    <string name="launch_message_prefix">This button will launch my \"</string>
+    <string name="launch_message_suffix">\" app!</string>
 </resources>
